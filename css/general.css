@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+html {}
+
+body {
+	background-image: url(../images/column.svg);
+	background-size: 100%;
+	font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height: 1.5rem;
+	opacity: .75;
+	
+}
+	
+img {
+	width: 100%;
+}
+
+.baseline {
+	background-image:url(../images/baseline.svg);
+}
+
+.wrapper {
+	background-color: #FFF;
+	overflow: hidden;
+}
+
+.left {
+	width: 65.25%;
+	float: left;
+}
+
+.right {
+	width: 34.75%;
+	float: right;
+}
+
+article {
+	background-color: #FFF;
+	padding: 1.5rem 3%;
+}
+
+article h2{
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+article p {
+	margin-bottom: 1.5rem;
+}
+
+article p:last-child {
+	margin-bottom: 0;
+}
+
+aside {
+	padding: 1.5rem;
+}
+
+.box {
+	background-color: #FFF;
+	padding: .5rem 6%;
+	margin-bottom: 1.5rem;
+}
+
+.box h3 {
+	font-size: 1.25rem;
+}
+
+.box p {
+	font-size: 0.75rem;
+}
